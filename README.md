@@ -45,3 +45,9 @@ Absolut: Man befindet sich in irgendeinem verzeichniss und möchte in ein komple
 16. `echo $0` lässt ausgeben in welcher Shell man sich befindet.
 17. `mkdir <Verzeichnissname>` erstellt ein Verzeichniss im Aktuellen verzeichniss.  
 18. `rmdir <Verzeichnissname>` löscht das Verzeichniss mit <Verzeichnissname> im Aktuellen verzeichniss.  
+  
+19. `rm -r <Dateiname>` Zum löschen einer Datei im Aktuellen verzeichniss.  
+20. `mv` --> move Zum bewegen einer Datei.
+21. `whoami` Zum abfragen des Benutzer und Gerätenamen.
+  
+#### C-Programme über das Terminal erzeugen
