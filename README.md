@@ -50,4 +50,14 @@ Absolut: Man befindet sich in irgendeinem verzeichniss und möchte in ein komple
 20. `mv` --> move Zum bewegen einer Datei.
 21. `whoami` Zum abfragen des Benutzer und Gerätenamen.
   
-#### C-Programme über das Terminal erzeugen
+#### C-Programme über das Terminal erzeugen  
+Zum erzeugen von C-Programmen braucht man eine Compiler Suite (in unserem Fall verwendeten wir die GCC) und einen Editor um den Quellcode zu erstellen in unserem Fall der Nano.  
+1. Erstellen des Quellcodes: `nano <dateiname.c>`  
+2. fertigen Quellcode ansehen: `less <dateiname.c>`  
+3. einzelne bytes ansehen: `hexdump -c <dateiname>`  
+4. Compilieren des ersten Programms für Laptop: `gcc <quellcodedateiname>`  
+5. Compilieren des ersten Programms für Microcontroller: `avr-gcc <quellcodedateiname>`  
+6. Ausgeben des ersten Programms auf Bildschirm(standart output): `cat <programmname.c>`  
+7. Ausgeben des ersten Programms auf ein bestimmtes Ausgabegerät: `cat <programmname.c> | grap printf` in unserem fall wird das Programm nun wider auf dem Bildschirm ausgegeben.  
+8. `|` --> pipe operator --> die ausgabe des ersten programms wird zur eingabe des nächsten.  
+9. Das compilieren kann auch an allen stellen abgebrochen wie z.B. nach dem Assembler. Hierfür gibt es widerum eigene Optionen die im Manual des compilers nachgelesen werden können.
