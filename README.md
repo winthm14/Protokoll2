@@ -1,4 +1,9 @@
 # Protokoll 2
+#### Author: Winter Thomas
+#### Übungsdatum: 25.08.2018
+#### Professor: SX
+#### Fehlend: Wegl Patrick
+
 ## Übersetzung von C-Programmen  
   
   1. Quelldatei  
@@ -13,6 +18,14 @@
     
 Um die übersetzung von C-Programmen zu vereinfachen gibt es Compiler Suiten wie z.B. den Gnu Compiler, Microsoft Visual C/C++.
 Weitere nicht so bekannte Compiler Suiten währen z.B. von Borland oder Keil.  
+#### Preprozessor  
+Der Präprozessor bearbeitet Anweisungen zum Einfügen von Quelltext (#include) und zum Ersetzen von Makros (#define)
+#### Compiler  
+Der Compiler übersetzt den Quelltext in Assemblerquelltext.
+#### Assembler  
+Der Assembler übersetzt von der Maschienensprache in einen für die CPU "lesbaren" code(Maschienenbefehle).
+#### Linker  
+Der Linker fügt zum Schluss noch diverse Bibliotheken hinzu.
 ## GNU  
 Ein Projekt von Richard Stallmann gegründet mit dem ziel ein unixähnliches Betriebssystem zu schaffen, mit der sicherheit dass der Endbenutzer alle freiheiten hat das Betriebssystem zu kopieren, zu verändern und zu Teilen.  
 ## GCC  
