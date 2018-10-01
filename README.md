@@ -42,3 +42,6 @@ Absolut: Man befindet sich in irgendeinem verzeichniss und möchte in ein komple
 13. `shift+G` mit dießer Tastenkombination kommt man ans Ende des Handbuchs.  
 14. `/<Suchbegriff>` mit disem Komando kann man im Handbuch nach bestimmten begriffen Suchen.  
 15. `Q`mit dieser Taste schließt man das Handbuch.  
+16. `echo $0` lässt ausgeben in welcher Shell man sich befindet.
+17. `mkdir <Verzeichnissname>` erstellt ein Verzeichniss im Aktuellen verzeichniss.  
+18. `rmdir <Verzeichnissname>` löscht das Verzeichniss mit <Verzeichnissname> im Aktuellen verzeichniss.  
