@@ -60,4 +60,7 @@ Zum erzeugen von C-Programmen braucht man eine Compiler Suite (in unserem Fall v
 6. Ausgeben des ersten Programms auf Bildschirm(standart output): `cat <programmname.c>`  
 7. Ausgeben des ersten Programms auf ein bestimmtes Ausgabegerät: `cat <programmname.c> | grap printf` in unserem fall wird das Programm nun wider auf dem Bildschirm ausgegeben.  
 8. `|` --> pipe operator --> die ausgabe des ersten programms wird zur eingabe des nächsten.  
-9. Das compilieren kann auch an allen stellen abgebrochen wie z.B. nach dem Assembler. Hierfür gibt es widerum eigene Optionen die im Manual des compilers nachgelesen werden können.
+9. Das compilieren kann auch an allen stellen abgebrochen werden. Wie z.B. nach dem Assembler. Hierfür gibt es widerum eigene Optionen die im Hilfemenü des compilers nachgelesen werden können.
+10. Manual des Compilers für PC/Laptop: `gcc --help`  
+11. Manual des Compilers für Microcontroller: `avr-gcc --help`
+12. Das Dissassemblieren ist auch möglich jedoch nur von der Objektdatei bis zum Assembler code. Das Sissassemblieren von Assembler code zum Quelltext ist nicht möglich!  
